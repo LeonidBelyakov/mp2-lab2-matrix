@@ -108,7 +108,7 @@ TEST(TVector, compare_equal_vectors_return_true)
 {
 	TVector<int> v1(3, 1), v2(3, 1);
 	v1[1] = 1;	v2[1] = 1;
-	v1[2] = 2;	v2[2] = 2; 3;
+	v1[2] = 2;	v2[2] = 2;
 	EXPECT_EQ(v1 == v2, true);
 }
 
