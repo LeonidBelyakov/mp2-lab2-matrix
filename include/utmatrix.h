@@ -144,7 +144,6 @@ TVector<ValType> TVector<ValType>::operator-(const ValType &val)
 	for (int i = 0; i < Size - StartIndex; i++)
 		pVector[i] -= val;
 	return *this;
-	return *this;
 } 
 
 template <class ValType> // умножить на скаляр
